@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        var quantidade = 7;
+
+        var numeros = []; /* só entra menor que 72 */
+        var soma = 0;
+
+        for (var i = 1; i <= quantidade; i++) {
+            var numero = parseFloat(prompt("Digite o " + i + "° número:"));
+
+            if (numero <72) {
+                numeros.push(numero);
+                soma += numero;
+            }
+
+        }
+
+        alert(`Os números abaixo de 72 são ${numero}`);
+
+        alert(`O valor dos números somados é ${soma}`);
+
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
